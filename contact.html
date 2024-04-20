@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carolyn Morton">
+    <title>Alpine Haven Retreat | Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda:wght@300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header class="header">
+    <h1><a href="index.html">Alpine Haven Retreat | Contact</a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Accommodations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="images/swiss-valley.jpg" alt="Swiss Valley landscape with beautiful green pine trees. In the distance, we see a snow-covered mountain.">
+</header>
+<main class="contact-main">
+    <section>
+        <div class="top">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            <img src="images/swiss-sunset.jpg" alt="A vibrant sunset on a swiss village with beautiful mountains in the background">
+        </div>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" class="two-column-form">
+            <div class="column">
+                <label for="full_name">Full Name *</label>
+                <input type="text" id="full_name" name="full_name" required>
+                
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="column">
+                <label>Preferred Contact Method *</label>
+                <div class="radio-container">
+                    <div class="radio-buttons">
+                        <input type="radio" id="contact_method_email" name="contact_method" value="email" required>
+                        <label for="contact_method_email">Email</label>
+                    </div>
+                    <div class="radio-buttons">
+                        <input type="radio" id="contact_method_phone" name="contact_method" value="phone" required>
+                        <label for="contact_method_phone">Phone</label>
+                    </div>
+                </div>
+                <label for="comments">Comments *</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+                
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+</main>
+<footer class="footer">
+    <p>Copyright ©2024 - Alpine Haven Retreat</p>
+    <p>This site is for educational purposes only</p>
+</footer>
+</body>
+</html>
